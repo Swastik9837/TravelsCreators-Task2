@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  /* background-color: lightblue; */
+  color: white;
+}
+
+.App h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.App .HotelDescription {
+  width: 80%;
+  margin-bottom: 20px;
+  background-color: rgb(112, 164, 224);
+  color: white;
+}
+
+.App .OtherFacilities {
+  width: 80%;
+  background-color: lightblue;
+  color: white;
+}
+
+.App .BasicProperty {
+  width: 80%;
+  margin-top: 20px;
+  background-color: navy;
+  color: white;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-weight: bold;
+}
